@@ -1,0 +1,29 @@
+sort1 uses: Bubble Sort
+
+How do you know?:
+random5000 - 0.075, reversed5000 - 0.132, sorted5000 - 0.077
+random10000 - 0.272, reversed10000 - 0.352, sorted10000 - 0.104
+random50000 - 5.822, reversed50000 - 5.217, sorted50000 - 0.467
+
+The times are higher than sort 2, but similar to sort 3, narrowing it down to bubble or selection sort.
+The times for the sorted list are lower than for the reversed and random lists. Thus it is bubble sort.
+
+sort2 uses: Merge Sort
+
+How do you know?:
+random5000 - 0.089, reversed5000 - 0.037, sorted5000 - 0.035
+random10000 - 0.070, reversed10000 - 0.077, sorted10000 - 0.089
+random50000 - 0.471, reversed50000 - 0.537, sorted50000 - 0.426
+
+The times are lower for this sort type (especially for 50000) than the others.
+The times are similar for random, reversed, and the sorted lists, which is a characteristic of merge sort.
+
+sort3 uses: Selection Sort
+
+How do you know?:
+random5000 - 0.140, reversed5000 - 0.049, sorted5000 - 0.058
+random10000 - 0.192, reversed10000 - 0.156, sorted10000 - 0.0134
+random50000 - 2.376, reversed50000 - 2.661, sorted50000 - 2.331
+
+The times are higher than sort 2, but similar to sort 1, narrowing it down to bubble or selection sort.
+The times for the random, reversed, and the sorted lists are similar, which is a characteristic of selection sort, but not bubble sort.
